@@ -1,0 +1,164 @@
+body {
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first-part {
+    display: flex;
+    margin: 0%;
+    margin-bottom: 80px;
+}
+
+h1 {
+    font: bold;
+    font-size: 55px;
+}
+
+.intro {
+    margin-left: 15%;
+    margin-top: 25%;
+    margin-right: 10%;
+}
+
+#first-para {
+    font-size: 20px;
+    color: gray;
+}
+
+.click-button {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, orange, rgba(255, 0, 0, 1));
+}
+
+span {
+    color: coral;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 80%;
+    margin-top: 10%;
+}
+
+.second-part {
+    display: flex;
+    margin-right: 0px;
+    margin-bottom: 60px;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.second-image {
+    height: 555px;
+}
+
+.about {
+    margin-top: 10%;
+}
+
+.about-nu {
+    font: bold;
+    color: gray;
+}
+
+.second-para {
+    text-align: left;
+    margin-right: 30%;
+}
+
+.recipies {
+    font: bold;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+}
+
+.third-para {
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.fourth {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.Cover1 {
+    box-sizing: border-box;
+    box-shadow: 0 0 2px 2px whitesmoke;
+    box-shadow: 0 0 0 2px whitesmoke;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.Cover2 {
+    box-sizing: border-box;
+    box-shadow: 0 0 2px 2px whitesmoke;
+    box-shadow: 0 0 0 2px whitesmoke;
+    margin-top: 5%;
+    margin-right: 5%;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    width: 50%;
+}
+
+.Cover1 img {
+    height: 300px;
+    width: 96%;
+}
+
+.Cover2 img {
+    height: 300px;
+    width: 96%;
+}
+
+.fourth-para {
+    margin-right: 5%;
+}
+
+.fifth {
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 25px;
+    box-shadow: 0 0 2px 2px whitesmoke;
+    box-shadow: 0 0 0 2px whitesmoke;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.follow {
+    margin-right: 5%;
+    margin-left: 15%;
+}
+
+#fresh {
+    color: gray;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 7%;
+}
