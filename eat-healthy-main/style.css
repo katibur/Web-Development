@@ -97,8 +97,7 @@ span {
 
 .Cover1 {
     box-sizing: border-box;
-    box-shadow: 0 0 2px 2px whitesmoke;
-    box-shadow: 0 0 0 2px whitesmoke;
+    box-shadow: 10px 10px 40px gray;
     border-radius: 25px;
     padding-left: 25px;
     padding-top: 25px;
@@ -111,8 +110,7 @@ span {
 
 .Cover2 {
     box-sizing: border-box;
-    box-shadow: 0 0 2px 2px whitesmoke;
-    box-shadow: 0 0 0 2px whitesmoke;
+    box-shadow: 10px 10px 40px gray;
     margin-top: 5%;
     margin-right: 5%;
     border-radius: 25px;
@@ -139,8 +137,7 @@ span {
     display: flex;
     box-sizing: border-box;
     border-radius: 25px;
-    box-shadow: 0 0 2px 2px whitesmoke;
-    box-shadow: 0 0 0 2px whitesmoke;
+    box-shadow: 10px 10px 40px gray;
     margin-bottom: 100px;
     margin-left: 5%;
     margin-right: 5%;
