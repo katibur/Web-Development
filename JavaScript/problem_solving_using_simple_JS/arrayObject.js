@@ -37,3 +37,44 @@ function cost(products) {
 }
 const expense = cost(shoppingCart);
 console.log(expense);
+
+
+// multi-layer discount calculation
+function ticketPrice(ticketQuantity) {
+    const first100price = 100;
+    const second100price = 90;
+    const third100price = 70;
+    if (ticketQuantity <= 100) {
+        const total = first100price * ticketQuantity;
+        return total;
+    }
+    else if (ticketQuantity <= 200) {
+        const first100 = first100price * 100;
+        const rest = ticketQuantity - 100;
+        const restPrice = rest * second100price;
+        const total = first100 + restPrice;
+        return total;
+    }
+    else {
+        const first100 = first100price * 100;
+        const second100 = second100price * 100;
+        const rest = ticketQuantity - 200;
+        const restPrice = rest * third100price;
+        const total = first100 + second100 + restPrice;
+        return total;
+    }
+}
+const ticktes = ticketPrice(270);
+console.log(ticktes);
+
+
+// validation of unexpected function
+function add(num1, num2) {
+    const add = num1 + num2;
+    if (typeof num1 !== 'number' || typeof num2 !== 'number') {
+        return ('please enter a number');
+    }
+    return add;
+}
+const numbers = add(12, '45');
+console.log(numbers);
